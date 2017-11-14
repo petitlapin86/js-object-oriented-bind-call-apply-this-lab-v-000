@@ -8,4 +8,4 @@ function setThisWithCall (fn, thisValue, arg) {
   
 }
 
-setThisWithCall.call();
+setThisWithCall.call(bob);
