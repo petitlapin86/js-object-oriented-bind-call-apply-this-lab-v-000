@@ -1,10 +1,8 @@
 
 function justInvoke (fn) {
-  return this.fn = this;
+  constructor (fn){
+  return this.fn = this;}
 }
 
 
 
-function setThisWithCall(fn, thisValue, arg) {
-  
-}
